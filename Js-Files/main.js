@@ -1,6 +1,6 @@
 function show(){
     if (document.querySelector('#menu').style.display==="none"){
-        document.querySelector('#line2').style.display = 'none';
+        document.querySelector('#linex').style.display = 'none';
         document.querySelector('#line1').style.transform=" rotate(45deg) translateY(8px)";
         document.querySelector('#line3').style.transform=" rotate(-45deg) translateY(-8px)";
         document.querySelector('#menu').style.display="flex";
@@ -15,7 +15,7 @@ function show(){
     // document.querySelector('#line3').style.transform=" translate(2px)";
     }
     else{
-        document.querySelector('#line2').style.display = 'block';
+        document.querySelector('#linex').style.display = 'block';
         document.querySelector('#line1').style.transform=" rotate(0deg) translateY(0px)";
         document.querySelector('#line3').style.transform=" rotate(0deg) translateY(0px)";
         document.querySelector('#menu').style.display="none";
